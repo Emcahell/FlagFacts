@@ -1,0 +1,88 @@
+@media (min-width: 600px){
+    .title2{
+        font-size: 18px;
+    }
+    .title1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .title1{
+        font-size: 16px;
+    }
+    .title2{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .search{
+        max-width: 300px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 440px){
+    .search{
+        max-width: 200px;
+        max-height: 35px;
+    }
+
+    .box-icon-search{
+        position: relative;
+        top: 14px;
+        left: 11px;
+    }
+    .icon-search{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px){
+    .header{
+        height: 100px;
+    }
+
+    .title2{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .country{
+        width: 250px;
+        box-shadow: -17px -17px 7px rgba(119, 136, 153, 0.692);
+    }
+
+    .country-flag{
+        width: 230px;
+        height: 140px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 300px){
+    .title1{
+        font-size: 15px;
+    }
+    .title2{
+        font-size: 12px;
+    }
+
+    .country{
+        width: 200px;
+        box-shadow: -7px -7px 7px rgba(119, 136, 153, 0.692);
+    }
+
+    .country-flag{
+        width: 170px;
+        height: 90px;
+    }
+
+    .country-name{
+        font-size: 17px;
+    }
+
+    .about{
+        font-size: 12px;
+    }
+}
