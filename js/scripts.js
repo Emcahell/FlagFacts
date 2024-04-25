@@ -15,7 +15,7 @@ search.addEventListener("keyup", e =>{
     // })
 
     if(e.target == search){
-        document.querySelectorAll(".country").forEach(el => el.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+        document.querySelectorAll(".country").forEach(el => el.textContent.toLowerCase().includes(e.target.value.toLowerCase().trim())
         ? el.classList.remove("filter")
         : el.classList.add("filter") 
     )
